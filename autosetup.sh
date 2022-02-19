@@ -29,6 +29,11 @@ yay -S \
 sudo cp ~/Documents/dotfiles/lightdm.conf /etc/lightdm/lightdm.conf
 sudo systemctl enable lightdm
 
+sudo cp ~/Documents/dotfiles/wallpaper/background.jpeg /usr/share/wallpapers
+sudo cp ~/Documents/dotfiles/lightdm/slick-greeter.conf /etc/lightdm/
+sudo cp ~/Documents/dotfiles/lightdm/lightdm.conf /etc/lightdm/
+sudo cp ~/Documents/dotfiles/icons/ /usr/share/
+
 # Setup X-keyboard setup
 sudo cp ~/Documents/dotfiles/20-keyboard.conf /etc/X11/xorg.conf.d/20-keyboard.conf
 
