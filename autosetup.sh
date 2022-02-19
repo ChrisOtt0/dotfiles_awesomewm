@@ -15,7 +15,10 @@ sudo pacman -S \
 	openssh \
 	pipewire \
 	pipewire-jack \
+	ttf-fira-code \
+	ttf-jetbrains-mono \
 	vicious \
+	wezterm \
 	wireless_tools \
 	xorg-server \
 	xorg-xinit \
